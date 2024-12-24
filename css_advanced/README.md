@@ -34,7 +34,7 @@ This is a simple HTML template for a fictional online platform called **Smile Sc
 
 ## Demo
 
-[Link to live demo](#) _(Placeholder for live demo URL)_
+[file:///C:/Users/DELL/Desktop/ALX/Front-End/My_First_Portfolio/css_advanced/index.html](#) _(Placeholder for live demo URL)_
 
 ## License
 
