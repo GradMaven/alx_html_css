@@ -1,0 +1,29 @@
+.action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    padding: 20px 0;
+    
+}
+.action-box {
+    height: 374px;
+    width: 336px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    height: 2px;
+    width: 336px;
+    margin: 20px auto;
+}
+.action button {
+    margin-top: 20px; /* Adds space above the button */
+    padding: 10px 20px; /* Adjusts button padding */
+    
+}

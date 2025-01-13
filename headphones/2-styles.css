@@ -1,0 +1,64 @@
+.hero2 {
+    position: relative;
+    width: 1400px;
+    height: 650px;
+    text-align: center;
+    background-image: url('images/headphones_hero_2.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.hero2 p {
+    height: 104px;
+    width: 638px;
+    margin-top: 40px;
+    font-size: 16px;
+    color:#ffffff;
+    line-height: 1.6;
+
+}
+.pentagone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.pentagone-item {
+    position: relative;
+    text-align: center;
+    height: 190px;
+    width: 190px;
+}
+.pentagone-item img{
+    display: block;
+    height: 190px;
+    width: 190px;
+    padding: 20px;
+    
+}
+
+.pentagone-item h2, .pentagone-item p {
+    position: absolute; /* Allows positioning over the image */
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Offsets the center alignment */
+    margin: 0;
+}
+
+.pentagone-item h2 {
+    font-size: 24px;
+    font-weight: bold;
+ 
+}
+.pentagone-item p{
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 80px;
+}

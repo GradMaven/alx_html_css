@@ -1,0 +1,159 @@
+
+@media only screen and (min-width: 601px) and (max-width: 768px)  {
+
+    body {
+         width: 100%;
+     }
+ 
+     .wrapper-main {
+         width: 100%;
+     }
+     nav img {
+         margin-left: 10%;
+         z-index: 2;
+     }
+ 
+    
+     nav ul {
+ 
+         list-style: none;
+         display: flex;
+         justify-content: space-between;
+         margin: 0;
+         padding: 0;
+         z-index: 2;
+     }
+ 
+     header nav ul li {
+         margin-top: 20px;
+         display: inline-block;
+         padding: 0;
+          position: relative;
+     }
+     header nav ul li a {
+         padding: 10px;
+     }
+     
+     .hero {
+         width: 100%;
+         height: 800px;
+         scroll-behavior: smooth;
+     }
+     
+    .text-box {
+     margin-top: 50px;
+     width: 80%;
+     height:436px;
+     position: relative;
+     align-items: center;
+  
+ }
+ 
+     .hero1 {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: 750px;
+     scroll-behavior: smooth;
+ }
+ 
+     .hero1-box {
+         width: 80%;
+         margin-top: 300px;
+         padding: 20px;
+         line-height: normal;
+         scroll-behavior: smooth;  
+        
+     }
+ 
+     .part2-icons{
+         height: 470px;
+         width: 472px;
+         flex-direction: row;
+         justify-content: space-evenly;
+     }
+     .part2-icons div {
+         text-align: center; /* Centers content inside each div */
+     }
+     .part2-icons img {
+         max-width: 100%; /* Ensures images scale to fit their container */
+         height: auto; /* Maintains the aspect ratio of the images */
+         border-radius: 10px; /* Optional: Adds rounded corners */
+     }
+     .hero2 {
+         
+         height: 876px;
+         width: 770px;
+     }
+     .hero2 p {
+         width: 80%;
+         height: 208px;
+         margin-bottom: 60px;
+         padding: 10px;
+     }
+     .pentagone {
+         flex-direction: row; /* Ensures horizontal flow */
+         justify-content: space-evenly; /* Distributes items evenly */
+         row-gap: 20px;
+         padding: 20px;
+         margin-bottom: 40px;
+     }
+     
+     .pentagone-item {
+         width: 45%; /* Adjusts width to fit two columns */
+         height: auto; /* Keeps the aspect ratio */
+     }
+     .pentagone-item img {
+         width: 60%; /* Makes the image fit the container */
+         height: 190px; /* Maintains aspect ratio */
+         padding: 10px; /* Adjust padding for smaller screens */
+     }
+ 
+     .pentagone-item h2, .pentagone-item p {
+         position: absolute; /* Allows positioning over the image */
+         color: white;
+         left: 50%;
+         top: 50%;
+         transform: translate(-50%, -50%); /* Offsets the center alignment */
+         margin: 0;
+     }
+     
+     .pentagone-item h2 {
+         font-size: 24px;
+         font-weight: bold;
+         left: 30%;
+       
+      
+     }
+     .pentagone-item p{
+         font-size: 12px;
+         padding: 10px;
+         margin-top: 150px;
+         left: 30%;
+     }
+     .action-box {
+         width: 80%;
+         height: 374px;
+        
+     }
+     .action hr {
+         padding: 10px;
+     }
+   
+     footer section > div {
+         display: flex;
+         flex-direction: column;
+         justify-content: center; 
+         align-items: center;
+         width: 100%; 
+         margin: 0 auto;
+     }
+     
+     footer section > div div i {
+         margin-top: 20px; 
+         position: relative;
+ 
+     }
+ }
+ 
